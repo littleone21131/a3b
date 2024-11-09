@@ -1,0 +1,21 @@
+docker version 
+mkdir docker
+docker
+-code.
+app.js
+inside app.js
+console.log("Hello docker");
+dockerfile
+inside docker file
+FROM node:alpine
+COPY . /app
+WORKDIR /app
+CMD node app.js
+docker build -t hello-docker .
+docker image ls
+<<<<<<<<<<<<<<<<<<<<<<<<
+information of command
+The -t option (or --tag in full form) is used to assign a name (tag) to the image being built.
+This command tells Docker to build an image from the Dockerfile in the current directory (.) and tag it as hello-docker.
+what is docker?????????
+Docker is a platform that allows you to automate the deployment, scaling, and management of applications using containerization. Containers package applications and their dependencies into a portable, isolated environment that can run consistently across different systems.
