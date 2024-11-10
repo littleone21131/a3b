@@ -1,3 +1,11 @@
+
+docker ps
+go on docker hub an copy code paste and download
+docker run --name OpenJDK -it -d  java
+docker ps there are running satuts
+to stop we use docker stop id 
+docker container rm id
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 docker version 
 mkdir docker
 docker
@@ -19,3 +27,13 @@ The -t option (or --tag in full form) is used to assign a name (tag) to the imag
 This command tells Docker to build an image from the Dockerfile in the current directory (.) and tag it as hello-docker.
 what is docker?????????
 Docker is a platform that allows you to automate the deployment, scaling, and management of applications using containerization. Containers package applications and their dependencies into a portable, isolated environment that can run consistently across different systems.
+Docker is a tool that helps you package and run applications in containers. A container is like a lightweight, portable box that holds everything an application needs to run—like the code, libraries, and system tools—so that it can run anywhere, whether on your laptop, a server, or in the cloud, without any issues.
+Think of Docker like a shipping container: Just like you can ship a container across the world and it will hold its contents no matter where it goes, you can take a Docker container with your application and run it on any computer without worrying about the environment or dependencies.
+nvideia docker:-
+Simplifies GPU Access: Makes it straightforward to use GPUs within containers, without needing complex configuration or manual setup of NVIDIA drivers and libraries.
+Cross-platform: Supports a range of operating systems, including Linux distributions and Windows Subsystems for Linux (WSL).
+Easy Deployment of GPU-accelerated Applications: Helps in deploying machine learning models, data science applications, and other GPU-accelerated workloads in a reproducible and scalable manner.
+use
+Machine Learning and Deep Learning: Training and inference of neural networks using frameworks like TensorFlow, PyTorch, and others that require GPU acceleration.
+Scientific Computing: Running simulations and calculations that require significant computational resources.
+Data Analytics: Leveraging GPU-accelerated libraries for large-scale data processing.
