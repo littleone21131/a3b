@@ -27,6 +27,12 @@ The -t option (or --tag in full form) is used to assign a name (tag) to the imag
 This command tells Docker to build an image from the Dockerfile in the current directory (.) and tag it as hello-docker.
 what is docker?????????
 Docker is a platform that allows you to automate the deployment, scaling, and management of applications using containerization. Containers package applications and their dependencies into a portable, isolated environment that can run consistently across different systems.
+• Docker is a platform that uses containers to package an application and its dependencies
+into a standardized unit of software. o Container: A lightweight, isolated, and
+executable package that contains everything needed to run an application (code, libraries,
+dependencies). o Containers ensure consistency across different environments
+(development, testing, production). o Docker commands like docker build, docker
+run, and docker-compose are used for managing containers.
 Docker is a tool that helps you package and run applications in containers. A container is like a lightweight, portable box that holds everything an application needs to run—like the code, libraries, and system tools—so that it can run anywhere, whether on your laptop, a server, or in the cloud, without any issues.
 Think of Docker like a shipping container: Just like you can ship a container across the world and it will hold its contents no matter where it goes, you can take a Docker container with your application and run it on any computer without worrying about the environment or dependencies.
 nvideia docker:-
